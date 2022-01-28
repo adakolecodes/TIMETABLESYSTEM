@@ -1,0 +1,37 @@
+RewriteEngine On
+
+RewriteRule ^login?$ index.php
+
+RewriteRule ^dashboard?$ dashboard.php
+
+RewriteRule ^signout?$ signout.php
+
+RewriteRule ^courses?$ courses.php
+
+RewriteRule ^add-courses?$ add-courses.php
+
+RewriteRule ^add-courses-del?$ add-courses-del.php
+
+RewriteRule ^add-courses-process?$ add-courses-process.php
+
+RewriteRule ^add-teachers?$ add-teachers.php
+
+RewriteRule ^add-teachers-process?$ add-teachers-process.php
+
+RewriteRule ^teachers?$ teachers.php
+
+RewriteRule ^add-teachers-del?$ add-teachers-del.php
+
+RewriteRule ^add-classrooms?$ add-classrooms.php
+
+RewriteRule ^add-classrooms-process?$ add-classrooms-process.php
+
+RewriteRule ^allot-courses?$ allot-courses.php
+
+RewriteRule ^allot-courses-process?$ allot-courses-process.php
+
+RewriteRule ^generate-timetable?$ generate-timetable.php
+
+RewriteRule ^profile?$ profile.php
+
+RewriteRule ^update-profile?$ update-profile.php
